@@ -283,7 +283,7 @@
     }else if(3==buttonIndex){
         if (nil==streetWebView) {
             streetWebView=[[UIWebView alloc]initWithFrame:carMapView.frame];
-            [streetWebView setDelegate:self];
+            //[streetWebView setDelegate:self];
             [self.view addSubview:streetWebView];
         }
         [self loadStreetWebView];
